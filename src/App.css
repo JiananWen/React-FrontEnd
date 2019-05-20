@@ -23,6 +23,14 @@
   color: #61dafb;
 }
 
+#mainBody{
+  transition: 0.5s;
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: 20px auto;
+  /* border: 10px solid red; */
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
