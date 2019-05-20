@@ -1,0 +1,34 @@
+#OutsideTable{
+  width: 100%;
+}
+
+.tableHead{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgray;
+    padding: 4px 5px;
+  }
+  
+  .tableHead input, .tableHead button{
+    height: 30px;
+    margin-top: 5px;
+  }
+  
+  
+  
+  
+  .tableHead button{
+    background-color:#f25d18;
+  }
+  
+  .tableHead i{
+    color: white;
+  }
+
+
+
+  .popup{
+    position: absolute;
+    margin-left: -7.8%;
+    visibility: hidden;
+  }

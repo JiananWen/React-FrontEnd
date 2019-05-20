@@ -1,0 +1,103 @@
+.header {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .part {
+  width: 25%;
+  height: 80px;
+  /* border: 1px red solid; */
+}
+
+.header .part img {
+  height: 99%;
+  width: 80%;
+  display: block;
+}
+
+.header .part h2 {
+  color: #262525;
+}
+
+#title {
+  text-align: center;
+  padding-top: 5px;
+}
+
+#user {
+  display: flex;
+  justify-content: space-between;
+  font-size: 35px;
+  padding: 20px 10px;
+}
+
+#user h2 {
+  margin-top: 10px;
+}
+
+#question{
+  margin-top: 7px;
+}
+
+.box {
+  position: relative;
+  /* cursor: pointer; */
+}
+
+.popupbox {
+  visibility: hidden;
+  width: 350px;
+  background-color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  margin-left: -465%;
+  /* border: solid 1px red; */
+  color: white;
+  padding-top: 90%;
+  padding-bottom: 0;
+}
+
+.popupbox::before {
+  content: "";
+  position: absolute;
+  top: -13%;
+  left: 50%;
+  margin-left: -3%;
+  border-width: 11px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+  transform: rotate(180deg);
+}
+
+.userinfo{
+    text-align: center;
+    font-size: 20px;
+}
+
+#userinfoname{
+    font-size: 30px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    font-size: 15px;
+    padding: 2%;
+
+}
+
+.buttons button{
+    width: 25%;
+    height: 60%;
+    color: black;
+    font-size: 17px;
+}
+

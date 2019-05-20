@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footerbutton{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 17px;
+}
+
+#edit{
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#submitButton{
+    background: #f25d18;
+    color: white;
+}

@@ -1,0 +1,36 @@
+.field{
+    border: 1px solid lightgrey;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    height: 20%;
+    background-color: #e8e3e3;
+}
+
+.field label{
+    display: block;
+}
+
+.field .part{
+    width: 25%;
+    border: 1px solid lightgrey;
+    padding:1.3% 1%;
+}
+
+.field .part input{
+    width: 90%;
+}
+
+.field .part select{
+    width: 90%;
+}
+
+.field .part2{
+    font-size: 30px;
+    padding: 3% 10%;
+}
+
+.field .part2 i{
+    color: #f25d18;
+}
+

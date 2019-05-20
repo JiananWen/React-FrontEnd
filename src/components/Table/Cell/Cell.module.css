@@ -1,0 +1,82 @@
+.cell{
+   /* border: 1px solid green; */
+   display: flex;
+   height: 50px;
+   font-size: 15px;
+   /* border: 1px solid red; */
+   transition: 0.5s;
+}
+
+
+.head{
+    background-color: #dddddd;
+    text-align: center;
+    width: 90%;
+}
+
+/* default */
+.default{
+    text-align: left;
+    border: 0px;
+    /* margin-left: 10px; */
+    padding-left: 20px;
+}
+
+/* check */
+.check{
+    display: flex;
+    /* padding: 1px 5px; */
+}
+
+.check .checkleft{
+    /* width: 20%; */
+    /* height: 30%; */
+    transform: scale(1.7);
+    margin-top: 6%;
+    margin-left: 5%;
+    /* visibility: visible */
+    
+
+}
+
+.check .checkright{
+    width: 80%;
+    margin-left: 4%;
+    padding-left: 3%;
+    border: 0px;
+    
+}
+
+/* input */
+.input{
+    text-align: left;
+    width: 70%;
+    border: 0px;
+    margin-left: 10px;
+}
+
+/* add row */
+
+.addrow{
+    display: flex;
+    /* padding: 1px 5px; */
+    /* border: 1px solid red; */
+    
+}
+
+.addrow .addrowright{
+    /* width: 100%; */
+    border: 1px solid #f25d18;
+    margin-left: 10px;
+    margin-top: 1%;
+    height: 70%;
+    width: 80%;
+    padding-left: 5%;
+}
+
+.addrow i{
+    color: #f25d18;
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: 2%;
+}

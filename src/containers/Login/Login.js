@@ -4,6 +4,9 @@ import Button from '../../components/UI/Button/Button';
 
 import styles from './Login.module.css';
 
+import { connect } from 'react-redux';
+import { userActions } from '../../_actions/user.action';
+
 
 class Login extends Component {
 
@@ -18,7 +21,6 @@ class Login extends Component {
                 value: '',
                 validation: {
                     required: true,
-                    isEmail: true,
                 },
                 valid: false,
                 touched: false
@@ -83,7 +85,15 @@ class Login extends Component {
             formData[index] = this.state.loginForm[index].value;
         }
 
-        console.log(formData);
+        const username = this.state.loginForm.username.value;
+        const password = this.state.loginForm.password.value;
+
+        // console.log(formData);
+
+        if(username && password){
+            this.props.dispatch(userActions.login(username, password));
+        }
+        
 
         // post request
     }
@@ -152,4 +162,9 @@ class Login extends Component {
     }
 }
 
-export default Login;
+function mapStateToProps(state) {
+    return { };
+}
+
+export default connect(mapStateToProps)(Login);
+
